@@ -15,6 +15,5 @@ spec:
       containers:
       - name: mario-container
         image: hello-world:linux
-        command: ["sleep", "4800"]
         ports:
         - containerPort: 80
